@@ -1,14 +1,14 @@
 ## Геоинформационная система локализации пользователя в пространстве с использованием машинного обучения
 
 ### Идея 1.  
-Hololens + 3DSmoothNet (https://arxiv.org/abs/1811.06879)  + Teaser++ (https://arxiv.org/abs/2001.07715)  
+Hololens + 3DSmoothNet ([https://arxiv.org/abs/1811.06879](https://arxiv.org/abs/1811.06879 "https://arxiv.org/abs/1811.06879"))  + Teaser++ ([https://arxiv.org/abs/2001.07715](https://arxiv.org/abs/2001.07715 "https://arxiv.org/abs/2001.07715"))  
 ИЛИ  
-Hololens + ЗPointNetVLAD (https://arxiv.org/abs/1804.03492)  
+Hololens + ЗPointNetVLAD ([https://arxiv.org/abs/1804.03492](https://arxiv.org/abs/1804.03492 "https://arxiv.org/abs/1804.03492"))  
 
 Основной принцип - представить всё пространство в виде **облака точек**.  
 Затем мы сможем выяснять своё положение относительно записанной глобальной карты, используя небольшой локальный скан ближайшего к нам пространства. Так, например, работает навигация в современных роботах.  
-(https://github.com/raulmur/ORB_SLAM2  
-https://www.researchgate.net/publication/308501428_An_efficient_scan-to-map_matching_approach_for_autonomous_driving)  
+([https://github.com/raulmur/ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2 "https://github.com/raulmur/ORB_SLAM2")  
+[https://www.researchgate.net/publication/308501428_An_efficient_scan-to-map_matching_approach_for_autonomous_driving](https://www.researchgate.net/publication/308501428_An_efficient_scan-to-map_matching_approach_for_autonomous_driving "https://www.researchgate.net/publication/308501428_An_efficient_scan-to-map_matching_approach_for_autonomous_driving"))  
   
   
 Метод, который я хочу для этого использовать, называется **point cloud registration**  
@@ -125,4 +125,4 @@ ARCore
  - Метки должны быть расположены не слишком далеко друг от друга, так как при удалении от метки может начать накапливаться ошибка.
  - При потере трекинга нужно снова искать метку
  - Зависит от условий освещения
- - Подобное уже делали даже школьники (https://habr.com/ru/post/496356/)
+ - Подобное уже делали даже школьники ([https://habr.com/ru/post/496356/](https://habr.com/ru/post/496356/ "https://habr.com/ru/post/496356/"))
