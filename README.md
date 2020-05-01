@@ -4,7 +4,7 @@
 Hololens + 3DSmoothNet ([https://arxiv.org/abs/1811.06879](https://arxiv.org/abs/1811.06879 "https://arxiv.org/abs/1811.06879"))  + Teaser++ ([https://arxiv.org/abs/2001.07715](https://arxiv.org/abs/2001.07715 "https://arxiv.org/abs/2001.07715"))  
 ИЛИ  
 Hololens + ЗPointNetVLAD ([https://arxiv.org/abs/1804.03492](https://arxiv.org/abs/1804.03492 "https://arxiv.org/abs/1804.03492"))  
-
+  
 Основной принцип - представить всё пространство в виде **облака точек**.  
 Затем мы сможем выяснять своё положение относительно записанной глобальной карты, используя небольшой локальный скан ближайшего к нам пространства. Так, например, работает навигация в современных роботах.  
 ([https://github.com/raulmur/ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2 "https://github.com/raulmur/ORB_SLAM2")  
