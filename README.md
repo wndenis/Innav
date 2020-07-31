@@ -15,7 +15,6 @@ Hololens + 3DSmoothNet ([https://arxiv.org/abs/1811.06879](https://arxiv.org/abs
 #### Что такое **point cloud registration**:  
 ![](https://raw.githubusercontent.com/neka-nat/probreg/master/images/filterreg_fpfh.gif)  
 ![](https://github.com/zgojcic/3DSmoothNet/raw/master/figures/demo.png?raw=true)
-![](http://geometryhub.net/images/globalregistration.jpg)
   
   
   
